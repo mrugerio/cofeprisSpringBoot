@@ -1,10 +1,10 @@
-package com.curso;
+package com.curso.v8;
 
-public class PcWindows {
+public class PcLinux implements Pc {
 	
 	String version;
 
-	public PcWindows(String version) {
+	public PcLinux(String version) {
 		this.version = version;
 	}
 	

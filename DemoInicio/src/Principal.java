@@ -26,11 +26,17 @@ public class Principal {
 		System.out.println(s1==s3); //false
 		System.out.println("*************");
 		
-		String nombre = "Patrobas";
+		String name = "Paco";
+		name = name + "Perez";
+		
+		
+		
+		
+		StringBuilder nombre = new StringBuilder("Patrobas");
 		
 		for (int x = 0; x<100; x++ ) {
-			nombre = nombre + x;
-			System.out.println(nombre);
+			nombre = nombre.append(x);
+			System.out.println(x);
 		}
 		
 		

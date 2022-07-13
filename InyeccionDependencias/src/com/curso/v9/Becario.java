@@ -1,12 +1,14 @@
-package com.curso;
+package com.curso.v9;
 
 public class Becario {
 
-	String nombre;
-	PcLinux myPc;
-	
-	public Becario(String nombre) {
+	private String nombre;
+	private Pc myPc; //Inyectar por Constructor
+
+	//Constructor
+	public Becario(String nombre, Pc myPc ) {
 		this.nombre = nombre;
+		this.myPc = myPc;
 	}
 
 	@Override
@@ -16,8 +18,8 @@ public class Becario {
 	
 	public void encenderPcBecario() {
 		System.out.println(nombre);
-		myPc = new PcLinux("Ubuntu 18.04");
 		myPc.encender();
 	}
+		
 	
 }

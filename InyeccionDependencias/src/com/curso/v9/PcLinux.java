@@ -1,6 +1,6 @@
-package com.curso;
+package com.curso.v9;
 
-public class PcLinux {
+public class PcLinux implements Pc {
 	
 	String version;
 
