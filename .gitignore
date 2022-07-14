@@ -6,3 +6,8 @@ DemoInicio/.project
 InyeccionDependencias/.classpath
 InyeccionDependencias/.project
 .gitattributes
+SpringAutowiring/.classpath
+SpringAutowiring/.project
+*.jar
+SpringInicio/.classpath
+SpringInicio/.project
