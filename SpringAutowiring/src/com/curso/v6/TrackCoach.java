@@ -1,4 +1,4 @@
-package com.curso.v3;
+package com.curso.v6;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

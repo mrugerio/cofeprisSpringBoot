@@ -6,7 +6,7 @@ public class MyApp {
 
 	public static void main(String[] args) {
 		
-		//CONFIGURACION XML
+		//CONFIGURACION ANOTACIONES
 		ClassPathXmlApplicationContext context = 
 				new ClassPathXmlApplicationContext("applicationContextV3.xml");
 				
@@ -15,6 +15,12 @@ public class MyApp {
 		System.out.println(theCoach1.getDailyWorkout());
 		
 		System.out.println(theCoach1.getDailyFortune());
+		
+		Coach theCoach2 =  context.getBean("baseballCoach", Coach.class);
+		
+		System.out.println(theCoach2.getDailyWorkout());
+		
+		System.out.println(theCoach2.getDailyFortune());
 
 	}
 
