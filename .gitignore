@@ -11,3 +11,10 @@ SpringAutowiring/.project
 *.jar
 SpringInicio/.classpath
 SpringInicio/.project
+spring-hibernate-customer-tracker-with-maven-all-java-config/.classpath
+spring-hibernate-customer-tracker-with-maven-all-java-config/.project
+spring-hibernate-customer-tracker-with-maven-all-java-config/.settings/.jsdtscope
+*.component
+spring-hibernate-customer-tracker-with-maven-all-java-config/.settings/org.eclipse.wst.common.project.facet.core.xml
+*.container
+*.name
