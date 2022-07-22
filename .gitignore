@@ -18,3 +18,11 @@ spring-hibernate-customer-tracker-with-maven-all-java-config/.settings/.jsdtscop
 spring-hibernate-customer-tracker-with-maven-all-java-config/.settings/org.eclipse.wst.common.project.facet.core.xml
 *.container
 *.name
+*.jar
+*.jar
+proyectorest/.mvn/wrapper/maven-wrapper.jar
+*.properties
+proyectorest/.mvn/wrapper/maven-wrapper.jar
+spring-data-rest-cruddemo/.mvn/wrapper/maven-wrapper.jar
+proyectorest/.mvn/wrapper/maven-wrapper.jar
+*.jar
